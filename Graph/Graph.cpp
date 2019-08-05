@@ -2,14 +2,17 @@
 //
 
 #include "Graph.h"
-#include "AdjList.h"
-#include "Traverse.h"
+#include "AdjMatrix.h"
+#include "MinestGNT.h"
 
 int main()
 {
-	AGraph* graph = create_graph();
-	cout << "----------------------------" << endl;
-	find_farest_node(graph, 0);
+	const int N = 5;
+	int ** graph = static_graph_matrix(5);
+	int sum = -1;
+	kruskal(graph, N, sum);
+	cout << sum << endl;
+	return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
