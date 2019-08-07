@@ -3,15 +3,11 @@
 
 #include "Graph.h"
 #include "AdjMatrix.h"
-#include "MinestGNT.h"
+#include "ShortestPath.h"
 
 int main()
 {
-	const int N = 5;
-	int ** graph = static_graph_matrix(5);
-	int sum = -1;
-	kruskal(graph, N, sum);
-	cout << sum << endl;
+	testDijkstra();
 	return 0;
 }
 

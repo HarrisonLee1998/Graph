@@ -155,6 +155,7 @@
     <ClCompile Include="AdjMatrix.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="MinestGNT.cpp" />
+    <ClCompile Include="ShortestPath.cpp" />
     <ClCompile Include="Traverse.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +163,7 @@
     <ClInclude Include="AdjMatrix.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="MinestGNT.h" />
+    <ClInclude Include="ShortestPath.h" />
     <ClInclude Include="Traverse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
